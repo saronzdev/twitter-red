@@ -1,0 +1,81 @@
+:root {
+    color-scheme: dark;
+}
+
+.tweet-containers {
+    display: flex;
+    justify-content: left;
+    flex-flow: row nowrap;
+    color: white;
+    background: rgb(45, 45, 45);
+    margin: 0;
+    padding: 10px 10px 10px 5px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 600px;
+    min-height: 60px;
+    max-height: 150px;
+}
+
+.tweet-containers:first-child {
+    margin-top: 10px;
+}
+.top-div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+.right-div {
+    width: 100%;
+    margin-left: 20px;
+}
+.tweet {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+.username {
+    font-size: 18px;
+    margin: 0 5px;
+    color: #ffffff90;
+    font-weight: 500;
+}
+
+.date {
+    font-size: 16px;
+    padding: 0;
+    margin: 0 5px;
+    color: #ffffff90;
+    font-weight: 600;    
+}
+.delete-con {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
+    justify-content: center;
+}
+.delete-btn {
+    width: 25px;
+    height: 25px;
+}
+.delete-btn:hover {
+    cursor: pointer;
+}
+img {
+    height: 35px;
+    width: 35px;
+    margin: 5px 10px;
+    border-radius: 360px;
+}

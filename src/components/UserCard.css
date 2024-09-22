@@ -1,0 +1,41 @@
+.top-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cards-con {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: left;
+    max-width: 660px;
+}
+.data-con {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 36, 36);
+    margin: 10px;
+    padding: 10px;
+    height: 120px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+.data-con:hover {
+    cursor: pointer;
+}
+.key {
+    color: rgb(128, 128, 128);
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+.value {
+    color: rgb(197, 193, 193);
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
